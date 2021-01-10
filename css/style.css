@@ -31,6 +31,124 @@
     font-style: normal;
 }
 
+@media screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+    .header{
+        width: 768px !important;
+        margin-top: 0;
+    }
+
+    .logo{
+        width: 25%;
+        margin-left: 70px;
+    }
+
+    .header_container{
+        margin-top: 0px !important;
+        margin: 0 auto;
+        width: 768px;
+        justify-content: space-around !important;
+        background: #061223;
+    }
+
+    
+
+    .nav_menu {
+        display: none !important;
+    }
+    .nav_signup{
+        display: none !important;
+    }
+    .nav_signup_icon{
+        display: flex !important;
+        background-color: rgb(6 18 35);
+        color: white;
+        border: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;
+    }
+
+    .nav_signup_icon:hover{
+        color: #ff7070;
+    }
+    .container {
+        width: 100% !important;
+        height: 640px !important;
+    position: absolute;
+    margin: 0 auto;
+    display: contents;
+    }
+    
+    .text {
+            /* width: 611px; */
+    /* margin-top: 110px; */
+    /* margin-left: 25px; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto !important;
+    }
+    
+    .h1{
+        margin: 0 !important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Mark';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px !important;
+    line-height: 127px;
+    color: #FFFFFF;
+    }
+    
+    .h2{
+        margin: 0;
+    margin-top: 0px !important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Mark-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+    line-height: 38px;
+    letter-spacing: 0.5em;
+    color: #EF9C9C;
+    }
+    .p{
+        margin: 0;
+    margin-top: 15px !important;
+    font-family: 'Mark';
+    font-style: normal;
+    font-weight: 100;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-weight: normal;
+    text-align: center !important;
+    font-size: 20px !important;
+    line-height: 25px;
+    text-align: justify;
+    color: #D8D8D8;
+    }
+
+    .smart{
+        display: none !important;
+    }
+    
+}
+
 @media screen and (max-width:320px) {
     body{
         width: 100%;
@@ -130,11 +248,12 @@
     margin-top: 15px !important;
     font-family: 'Mark';
     font-style: normal;
+    font-weight: 100;
     justify-content: center;
     justify-items: center;
     align-items: center;
     display: flex;
-    font-weight: 100;
+    font-weight: normal;
     text-align: center !important;
     font-size: 20px !important;
     line-height: 25px;
@@ -162,123 +281,6 @@
     }
 }
 
-
-@media screen and (max-width:768px) {
-    body{
-        width: 100%;
-    }
-    .header{
-        width: 768px !important;
-        margin-top: 0;
-    }
-
-    .logo{
-        width: 25%;
-        margin-left: 70px;
-    }
-
-    .header_container{
-        margin-top: 0px !important;
-        margin: 0 auto;
-        width: 768px;
-        justify-content: space-around !important;
-        background: #061223;
-    }
-
-    
-
-    .nav_menu {
-        display: none !important;
-    }
-    .nav_signup{
-        display: none !important;
-    }
-    .nav_signup_icon{
-        display: flex !important;
-        background-color: rgb(6 18 35);
-        color: white;
-        border: none;
-        box-sizing: border-box;
-        cursor: pointer;
-        outline: none;
-        justify-content: center;
-        align-items: center;
-        height: 60px;
-        width: 60px;
-    }
-
-    .nav_signup_icon:hover{
-        color: #ff7070;
-    }
-    .container {
-        width: 100% !important;
-        height: 640px !important;
-    position: absolute;
-    margin: 0 auto;
-    display: contents;
-    }
-    
-    .text {
-            /* width: 611px; */
-    /* margin-top: 110px; */
-    /* margin-left: 25px; */
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin: 0 auto !important;
-    }
-    
-    .h1{
-        margin: 0 !important;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    font-family: 'Mark';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 60px !important;
-    line-height: 127px;
-    color: #FFFFFF;
-    }
-    
-    .h2{
-        margin: 0;
-    margin-top: 0px !important;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    font-family: 'Mark-Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px !important;
-    line-height: 38px;
-    letter-spacing: 0.5em;
-    color: #EF9C9C;
-    }
-    .p{
-        margin: 0;
-    margin-top: 15px !important;
-    font-family: 'Mark-Regular';
-    font-style: normal;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    font-weight: normal;
-    text-align: center !important;
-    font-size: 20px !important;
-    line-height: 25px;
-    text-align: justify;
-    color: #D8D8D8;
-    }
-
-    .smart{
-        display: none !important;
-    }
-    
-}
 
 
 body {
@@ -438,6 +440,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 .content1 img{
     height: 256px;
@@ -446,12 +449,13 @@ main{
     cursor: pointer;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
     width: 200px;
-    transition: .2s ease .1s;
+    transition: 0s ease 0s;
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+    
 }
 
 .content2{
@@ -467,7 +471,7 @@ main{
     cursor: pointer;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
     width: 200px;
-    transition: .2s ease .3s;
+    transition: 0s ease 0s;
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -487,7 +491,7 @@ main{
     cursor: pointer;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
     width: 200px;
-    transition: .2s ease .3s;
+    transition: 0s ease 0s;
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
