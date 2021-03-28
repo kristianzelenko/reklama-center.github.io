@@ -6,6 +6,12 @@ body{
 html, body {
   height: 100%;
 }
+.minimized {
+    cursor: pointer;
+}
+.minimized:hover {
+    box-shadow: 0 0 5px grey;
+}
 .container {
   max-width: 1180px;
   margin: 0 auto;
